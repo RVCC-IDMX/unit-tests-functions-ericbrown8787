@@ -66,7 +66,6 @@ function checkSameSum(a1, a2) {
   return arraySum(a1) === arraySum(a2);
 }
 
-
 /**
  * Saves the username for later use
  * @param {string} name - a username
@@ -77,7 +76,7 @@ function checkSameSum(a1, a2) {
 function saveLogin(name) {
   const findLogin = function () {
     return name;
-  }
+  };
   return findLogin;
 }
 
@@ -86,5 +85,5 @@ module.exports = {
   isStrangePair,
   convertToDecimal,
   checkSameSum,
-  saveLogin
+  saveLogin,
 };
