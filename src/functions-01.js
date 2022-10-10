@@ -74,10 +74,9 @@ function checkSameSum(a1, a2) {
  * must use a closure to save the username
  */
 function saveLogin(name) {
-  const findLogin = function () {
+  return function findLogin() {
     return name;
   };
-  return findLogin;
 }
 
 module.exports = {
